@@ -1,0 +1,102 @@
+
+.roundInfoBox {
+    width: 100%;
+    min-width: 700px;
+    height: 25vh;
+    min-height: 250px;
+    border-radius:10px;
+    background: #81FF00;
+    font-family: serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .roundInfoColumn {
+    margin-top: 20px;
+    height: 80%;
+    margin-right: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    justify-content: space-around;
+  }
+  
+  .completedRoundInfoColumn {
+    margin-top: 20px;
+    width: 200%;
+    height: 80%;
+    margin-left:75px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    justify-content: space-around;
+  }
+  .lineBox {
+    margin: 0px;
+    width: 125%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.box h1 {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.box h2 {
+  border-bottom: 2px solid black;
+  margin: 0px;
+  margin-top: 5px;
+}
+.roundInfoColumn .lineBox .boxEmpty {
+    width:75px;
+    font-family: serif;
+  }
+
+.inputBox {
+  width: 200px;
+  min-height: 40px;
+  font-size: 20pt;
+  margin:0px;
+
+}
+  
+.submitButton {
+    height: 60%;
+    width: 60%;
+    min-width: 150px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.submitInfoButton {
+  height: 60%;
+  width: 60%;
+  min-width: 150px;
+  margin-left: -100px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
+.holeInput {
+  width: 200px;
+  min-height: 40px;
+  font-size: 20pt;
+  margin:0px;
+  margin-left:20px;
+  margin-top: 5px;
+}

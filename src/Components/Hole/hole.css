@@ -1,0 +1,90 @@
+.holeCard {
+    width: 100%;
+    min-width: 700px;
+    height: 30vh;
+    min-height: 260px;
+    border-radius:10px;
+    background: ##81FF00;
+  }
+  
+  
+header {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header div h2 {
+    margin:0px;
+    font-size: 40px;
+  }
+
+  .holeInfoBox {
+    width: 100%;
+    height: calc(100% = 100px);
+    font-family: serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .holeNumber {
+    height: 40px;
+    color: #6CC610;
+    margin:0px;
+    margin-left: 50px;
+  }
+  
+  .headerScore {
+    display: flex;
+    justify-content: space-between;
+    color: #6CC610;
+    margin:0px;
+    margin-right: 100px;
+  }
+  
+  .holeScore {
+    margin:0px;
+    font-size: 40px;
+    margin-left: 75px;
+  }
+  
+  .holeInfoBox {
+    width: 100%;
+    height: calc(100% = 100px);
+    font-family: serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .holeInfoBox h2 {
+    margin:0px;
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+
+  .holeInfoColumn {
+    width: 100%;
+    margin-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    justify-content: space-between;
+  }
+  .holeLineBox {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .holeLineBox h3 {
+    margin:0px;
+    margin-top: 20px;
+  
+  }
+  .holeBox {
+    width: 100%
+  }
+

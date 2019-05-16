@@ -1,0 +1,22 @@
+
+nav {
+    width: 100%;
+    min-width: 700px;
+    height: 20vh;
+    min-height: 125px;
+    border-radius:10px;
+    background: black;
+    color: white;
+    font-family: serif;
+    font-size: 64px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 1000px;
+  }
+  
+  nav h2 {
+    margin: 0px;
+    margin-left: 40px;
+  
+  }
